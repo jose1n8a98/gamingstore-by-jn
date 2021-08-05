@@ -1,0 +1,201 @@
+.header{
+    background-image: url('images/fondo.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: none;
+  
+}
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    background-color:none;
+    color: rgb(11, 205, 253);
+}
+h2{
+	font-family: 'Permanent Marker', cursive;
+    background-color:none;
+	
+    color: #F23054;
+}
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+div[class*=box] {
+	height: 33.33%;
+	width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}
+
+.box-2 { 
+    background-color:none; 
+    font-family: 'Oi', cursive;
+    padding: 0%;
+}
+
+.btn-two {
+	color: red;
+	transition: all 0.5s;
+	position: relative;	
+}
+
+.btn-two span {
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+.btn-two::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	
+	background-color: rgba(109, 219, 6, 0.719);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  
+  background-color: rgba(109, 219, 6, 0.719);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  
+  background-color: rgba(109, 219, 6, 0.719);
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display:contents;
+    flex-direction: row;
+    align-content: center;
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-item {
+    padding: 10px;
+    flex: 50%;
+    align-content: center;
+    justify-content:center;
+    
+  }
+  .fle{
+    min-height:400px ;
+    width: 100%;
+    background:white;
+    text-align: center;
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
+  }
+.prodcenter{
+    margin: auto;
+}
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .fle{
+        flex-direction: column;
+    }
+}
+#masInfo{
+    padding-top: 20px;
+}
+
+
+#informacion{
+    background: rgb(170, 170, 170);
+    font-family: 'Permanent Marker', cursive;
+    padding: 70px 0 70px 0;
+    background-image: url("/images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+/* .productos{
+    background-image: url('images/1201.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: none;
+} */
+.product:hover .imagen2 {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+#contactos{
+    background: #5EBCD6;
+    padding: 70px 0 70px 0;
+    background-image: url("/img/email-pattern.png");
+    background-attachment: fixed;
+    
+}
+
+.imagen{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+}
+.cont:hover .imagen {-webkit-transform:scale(1.2);transform:scale(1.2);}
+.cont {overflow:hidden;}
+
+.footer{
+    text-align: center;
+    background-color: #5EBCD6;
+    margin: 2px;
+    border: black;
+}
+
+

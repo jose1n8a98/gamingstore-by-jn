@@ -1,0 +1,17 @@
+[
+    {
+        "imag":"/images/producto1.jpg",
+        "producto": "PC GAMER ULTIMA GENERACION",
+        "precio": "2500$"
+    },
+    {
+        "imag":"/images/Producto2.jpg",
+        "producto": "PLAY STATION 5",
+        "precio": "499.99$"
+    },
+    {
+        "imag":"/images/producto 3.jpg",
+        "producto": "XBOX SERIE X",
+        "precio": "399.99$"
+    }
+]
